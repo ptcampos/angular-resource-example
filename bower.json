@@ -1,0 +1,33 @@
+{
+  "name": "angular-resource-example",
+  "version": "0.0.1",
+  "authors": [
+    "Paulo Campos <paulo@thriade.com>"
+  ],
+  "description": "AngularJS One Page Application that consumes a RESTful Web Service",
+  "main": "",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "AngularJS",
+    "RESTful",
+    "Angular",
+    "Resource",
+    "Angular",
+    "HTTP"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5",
+    "angular": "~1.4.7"
+  }
+}

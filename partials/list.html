@@ -1,0 +1,12 @@
+<div class="row">
+	<div class="col-md-12">
+		<a class="btn btn-success" href="#/add">Adicionar</a>
+		<p ng-show="albums.data && !albums.data.length">Sem albums cadastrados</p>
+		<div class="list-group">
+		  	<a ng-repeat="album in albums.data" href="#/albums/{{ album.id }}" class="list-group-item">
+		  		<h3>{{ album.title }}</h3>
+		  		<small>{{ album.artist }}</small>
+  			</a>
+		</div>
+	</div>
+</div>
